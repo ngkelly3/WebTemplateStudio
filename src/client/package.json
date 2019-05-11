@@ -47,7 +47,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build-split": "react-scripts build",
-    "build": "yarn manage:translations && node ./scripts/build-non-split.js",
+    "build": "npm run manage:translations && node ./scripts/build-non-split.js",
     "postbuild": "rm -rf ../extension/react && mv build ../extension/react",
     "manage:translations": "node scripts/manageTranslations.js",
     "test": "react-scripts test",

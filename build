@@ -1,4 +1,4 @@
-yarn --cwd ./src/client install
-yarn --cwd ./src/client build
-yarn --cwd ./src/extension install
-yarn --cwd ./src/extension build
+npm install --prefix ./src/client
+npm run build --prefix ./src/client
+npm install --prefix ./src/extension
+npm run build --prefix ./src/extension
